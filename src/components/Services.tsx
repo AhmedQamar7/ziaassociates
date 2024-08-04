@@ -22,10 +22,10 @@ const Services = () => {
                 </div>
 
                 <div className="w-full lg:w-1/2">
-                    <h2 className="mt-10 text-5xl lg:text-7xl">
+                    <h2 className="mt-10 text-5xl lg:text-7xl sm:text-3xl">
                         We are 
                         avaiable in
-                        <span className="font-bold"> SLH, Karachi </span>
+                        <span className="font-bold"> Saima Luxury Homes, Karachi </span>
                     </h2>
                     <p className="max-w-xl py-6 text-lg tracking-tighter lg:pr-20">
                         {SERVICES_TEXT}

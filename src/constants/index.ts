@@ -7,6 +7,10 @@ export const NAV_LINKS = [
   { title: "Faq", url: "#Faq" },
 ];
 
+export const CONTACT= {
+  title: "Contact Us", url: "#Contact"
+}
+
 export const HERO = {
   title: "Discover Your Ideal Home here!",
   description:
@@ -37,114 +41,113 @@ export const FEATURED_PROPERTIES = [
   {
     name: "240 SYD WITH BASEMENT",
     description: "5 Bedroom with attach bath, 3 Rooms, Store & Study Rooms, 2 Drawing room, Lounge, Kitchen, Rooftop",
-    price: "On Sale: 4 CR & On Rent: 130K",
+    price: "On Sale: 4 Cr & On Rent: 130K",
     image: "/240-bm.jpg",
   },
   {
     name: "240 SYD BUNGLOW",
     description: "3 Bedroom with attach bath, Drawing room, Lounge, Kitchen, ROOFTOP: 1 Room and Study or Store room",
-    price: "On Sale: 3 CR TO 3 CR 50 LAC & On Rent: 90K",
+    price: "On Sale: 3 Cr To 3 Cr 50 Lac & On Rent: 90K",
     image: "/240.jpg",
   },
   {
     name: "160 SYD G+1 BUNGLOW",
     description: "6 Bedroom attach bath, 2 Drawing Room, Lounge, 2 kitchen, Rooftop",
-    price: "On Sale: 2 CR 85 LAC To 2 CR 90 LAC, On Rent: 90K & Portion Rent: 50k",
-    image: "/160-g1.jpg",
+    price: "On Sale: 2 Cr 85 Lac To 2 Cr 90 Lac, On Rent: 90K & Portion Rent: 50k",
+    image: "/160G1.jpg",
   },
   {
     name: "160 SYD BUNGLOW",
-    description: " 3 Bedroom attach bath, Drawing Room, Lounge, kitchen, Rooftop",
-    price: "On Sale: 2 CR 20 LAC TO 2 CR 50 LAC, On Rent: 60K & Portion rent: 50k",
+    description: "3 Bedroom attach bath, Drawing Room, Lounge, kitchen, Rooftop",
+    price: "On Sale: 2 Cr 20 Lac To 2 Cr 50 Lac & On Rent: 60K",
     image: "/160.jpg",
   },
   {
-    name: "120 SYD G+1 BUNGLOW",
+    name: "120 SYD GROUND+1 BUNGLOW",
     description: "4 Bedroom with attach bath, 2 Drawing room, Lounge, 2 Kitchen, Rooftop",
-    price: "On Sale: 2 CR 25 LAC TO 2 CR 40 LAC, On Rent: 85K & Portion rent:45k",
-    image: "/120-g1.jpg",
+    price: "On Sale: 2 Cr 25 Lac To 2 Cr 40 Lac, On Rent: 85K & Portion Rent: 45k",
+    image: "/120G1.jpg",
   },
   {
     name: "120 SYD ONE UNIT BUNGLOW",
     description: "3 Bedroom with attach bath, Drawing room, Lounge, Kitchen, Terrace",
-    price: "On Sale: 2 CR TO 2 CR 30 LAC & On Rent: 60K",
+    price: "On Sale: 2 Cr To 2 Cr 30 Lac & On Rent: 60K",
     image: "/120-1unit.jpg",
   },
   {
     name: "120 SINGLE STORY BUNGLOW",
     description: "2 Bedroom with attach bath, Drawing room, Lounge, Kitchen, Rooftop",
-    price: "On Sale 1 CR 75 LAC TO 1 CR 80 LAC, On Rent 50K, Portion rent 40k",
+    price: "On Sale 1 Cr 75 Lac To 1 Cr 80 Lac & On Rent 50K",
     image: "/120.jpg",
   },
   {
-    name: "120 & 240 SYD BUNGLOW PLOT",
-    description: "120 & 240 Syd Park facing plots infront of Mosque & School",
-    price: "120 SYD PLOT : 1 CR 25 LAC 240 SYD PLOT : 2 CR 30 LAC ",
-    image: "/image-6.jpg",
+    name: "120 & 240 SYD BUNGLOW PLOTS",
+    description: "120 & 240 Syd Park facing plots near from Mosque & School",
+    price: "120 SYD PLOT : 1 Cr 25 Lac 240 SYD PLOT : 2 Cr 30 Lac ",
+    image: "/Plots.jpg",
   },
-];
+]
 
-export const SERVICES_TEXT = `Buying: We offer personalized assistance to help you find the perfect property in Saima Luxury Homes that suit your needs and budget. Our agents will guide you through the entire buying process, from property selection to closing the deal. Selling: When it comes to selling your property, our expert agents will create a customized marketing strategy to attract potential buyers and get you the best possible price.`;
+export const SERVICES_TEXT = `Buying: We offer personalized assistance to help you find the perfect property in Saima Luxury Homes that suit your needs and budget. Our agents will guide you through the entire buying process, from property selection to closing the deal. Selling: When it comes to selling your property, our expert agents will Create a customized marketing strategy to attract potential buyers and get you the best possible price.`;
 
 export const ABOUT_US_TEXT = `At Zia Associates, we are committed to providing exceptional real estate services in Saima Luxury Homes to our clients. With years of experience in the industry, our team of expert agents is dedicated to helping you achieve your real estate goals. Whether you're buying, selling, renting, or looking for property management services in Saima Luxury Homes, we're here to assist you every step of the way. Our mission is to make your real estate experience as seamless and stress-free as possible. Contact us today to learn more about how we can help you with all your real estate needs.`;
 
 export const TESTIMONIALS = [
   {
     name: "A.R Qamar",
-    instagram: "@jane.doe",
+    instagram: "@abdul.razaq",
     feedback:
       "Amazing service! The team went above and beyond to find me the perfect home. I couldn't be happier!",
-    image: "/profile-pictures/user1.jpg",
+    image: "/profile-pictures/user1.jpeg",
   },
   {
-    name: "John Smith",
-    instagram: "@john.smith",
+    name: "Sanaullah",
+    instagram: "@sunny.moriya",
     feedback:
-      "I was impressed by their professionalism and dedication. Highly recommend their services! I'm so grateful for their expertise.",
-    image: "/profile-pictures/user2.jpg",
+      "I was impressed by their professionalism and dedication. Highly recommend their services!",
+    image: "/profile-pictures/user2.jpeg",
   },
   {
-    name: "Maria Garcia",
-    instagram: "@maria.g",
+    name: "Zain Memon",
+    instagram: "@zain.memon",
     feedback:
       "Excellent experience working with them. They made the whole process smooth and stress-free.",
-    image: "/profile-pictures/user3.jpg",
+    image: "/profile-pictures/user3.jpeg",
   },
   {
-    name: "Ahmed Hassan",
-    instagram: "@ahmed.hassan",
+    name: "Ahmed Raza",
+    instagram: "@ahmed.raza",
     feedback:
       "Outstanding service. They listened to my needs and found me the perfect property.",
     image: "/profile-pictures/user4.jpg",
   },
   {
-    name: "Emily Wang",
-    instagram: "@emily.w",
+    name: "Sufiyan Zai",
+    instagram: "@sufiyan.zai",
     feedback:
       "Exceptional service and attention to detail. I would definitely use their services again.",
-    image: "/profile-pictures/user5.jpg",
+    image: "/profile-pictures/user5.jpeg",
   },
   {
-    name: "Luca Rossi",
-    instagram: "@luca.r",
+    name: "Shukaib Ahmed",
+    instagram: "@ahmed.raja",
     feedback:
       "Professional and knowledgeable team. They helped me find my dream home in Milan.",
-    city_country: "Milan, Italy",
     image: "/profile-pictures/user6.jpg",
   },
   {
-    name: "Sarah Johnson",
-    instagram: "@sarah.j",
+    name: "Ahmed Sherazi",
+    instagram: "@sherazi.yaseen",
     feedback:
       "I'm so grateful for their expertise. They made the whole buying process a breeze.",
     image: "/profile-pictures/user7.jpg",
   },
   {
-    name: "Juan Perez",
-    instagram: "@juan.p",
+    name: "M Muzzamil",
+    instagram: "@m.muzzamil",
     feedback:
-      "Impressive service. They found me a property that exceeded my expectations.",
-    image: "/profile-pictures/user8.jpg",
+      "Impressive service. They found me a property that exceeded my expectations. recommended.",
+    image: "/profile-pictures/user8I.jpg",
   },
 ];
 
@@ -164,7 +167,7 @@ export const FAQ = [
   {
     question: "Do you offer property management services?",
     answer:
-      "Yes, we offer property management services for landlords and property owners. Our services include tenant screening, rent collection, maintenance, and more.",
+      "Yes, we offer property management services for landlords and property owners. Our services include tenant sCreening, rent collection, maintenance, and more.",
     value: "faq-3",
   },
   {
@@ -204,23 +207,16 @@ export const FAQ = [
     value: "faq-9",
   },
   {
-    question:
-      "Can I rent out my property if I am still paying off the mortgage?",
-    answer:
-      "Yes, you can rent out your property if you are still paying off the mortgage. However, you will need to inform your mortgage lender and ensure that your mortgage agreement allows for rental income.",
-    value: "faq-10",
-  },
-  {
     question: "Do you offer short-term rentals?",
     answer:
       "Yes, we offer short-term rentals for vacation homes, corporate housing, and other purposes. You can browse our listings or contact us for more information about available short-term rental properties.",
-    value: "faq-11",
+    value: "faq-10",
   },
   {
     question: "How can I get started with buying or selling a property?",
     answer:
       "To get started with buying or selling a property, you can contact our customer service team or visit our office to speak with one of our agents. They will guide you through the process and answer any questions you may have.",
-    value: "faq-12",
+    value: "faq-11",
   },
 ];
 
@@ -231,31 +227,31 @@ export const FOOTER = {
     {
       name: "Buy",
       links: [
-        { title: "Search Properties", url: "#" },
-        { title: "Mortgage Calculator", url: "#" },
-        { title: "Buyer's Guide", url: "#" },
-        { title: "Home Buying Tips", url: "#" },
-        { title: "FAQs for Buyers", url: "#" },
+        { title: "Search Properties", url: "#Contact" },
+        { title: "Mortgage Calculator", url: "#Contact" },
+        { title: "Buyer's Guide", url: "#Contact" },
+        { title: "Home Buying Tips", url: "#Contact" },
+        { title: "FAQs for Buyers", url: "#Contact" },
       ],
     },
     {
       name: "Sell",
       links: [
-        { title: "List Your Property", url: "#" },
-        { title: "Seller's Guide", url: "#" },
-        { title: "Home Selling Tips", url: "#" },
-        { title: "Home Evaluation", url: "#" },
-        { title: "FAQs for Sellers", url: "#" },
+        { title: "List Your Property", url: "#Contact" },
+        { title: "Seller's Guide", url: "#Contact" },
+        { title: "Home Selling Tips", url: "#Contact" },
+        { title: "Home Evaluation", url: "#Contact" },
+        { title: "FAQs for Sellers", url: "#Contact" },
       ],
     },
     {
       name: "Rent",
       links: [
-        { title: "Search Rental Properties", url: "#" },
-        { title: "Rental Guide", url: "#" },
-        { title: "Renter's Insurance", url: "#" },
-        { title: "Tenant Rights", url: "#" },
-        { title: "FAQs for Renters", url: "#" },
+        { title: "Search Rental Properties", url: "#Contact" },
+        { title: "Rental Guide", url: "#Contact" },
+        { title: "Renter's Insurance", url: "#Contact" },
+        { title: "Tenant Rights", url: "#Contact" },
+        { title: "FAQs for Renters", url: "#Contact" },
       ],
     },
   ],

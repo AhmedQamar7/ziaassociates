@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import Link from "next/link";
 
 const SearchForm = () => {
     const form = useForm();
@@ -91,12 +92,17 @@ const SearchForm = () => {
                                 </PopoverContent>
                             </Popover>
                         </FormItem>
+                        
                     )}
                 />
 
-                <Button type="submit" className="bg-slate-800 text-white">
-                    Search
-                </Button>
+                <span className="px-1 items-center">
+                    <Link href={"#FeaturedProperties"}>
+                        <Button type="submit" className="bg-slate-800 text-white lg:px-20 md:px-30 py-4">
+                            Search
+                        </Button>
+                    </Link>
+                </span>
 
             </Form>
 

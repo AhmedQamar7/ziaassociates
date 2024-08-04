@@ -29,9 +29,6 @@ const Testimonials = () => {
               <p className="p-4">
                 {testimonials.feedback}
               </p>
-              <p className="text-sm text-neutral-400">
-                {testimonials.city_country}
-              </p>
             </div>
           </div>
         ))}

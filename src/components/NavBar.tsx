@@ -33,7 +33,7 @@ const NavBar = () => {
                             <li key={index}>
                                 <Link
                                     href={item.url}
-                                    className='text-sm text-white hover:text-neutral-500'>
+                                    className='text-sm text-white hover:text-neutral-500 duration-300'>
                                     {item.title}
                                 </Link>
                             </li>
@@ -42,9 +42,10 @@ const NavBar = () => {
                 </div>
 
                 <div className='hidden text-sm text-white gap-4 lg:flex'>
-                    <Button variant={'outline'} id='Contact' className='mr-2 bg-black'>Contact Us</Button>
+                    <Link href={'#contact'}>
+                        <Button variant={'outline'} className='mr-2 bg-black duration-300'>Contact Us</Button>
+                    </Link>
                 </div>
-
 
                 <div className="flex-col justify-end text-white md:flex lg:hidden">
                     <Button onClick={toggleNavbar}>
@@ -68,8 +69,10 @@ const NavBar = () => {
                         ))}
                     </ul>
 
-                    <div className='flex items-center justify-center pb-8 lg:hidden text-white'>
-                        <Button variant={'outline'} id='#Contact' className='mr-2 bg-black'>Contact Us</Button>
+                    <div className='flex items-center justify-center pb-8 lg:hidden text-white' >
+                        <Link href={'#contact'}>
+                            <Button variant={'outline'} className='mr-2 bg-black'>Contact Us</Button>
+                        </Link>
                     </div>
 
                 </div>
