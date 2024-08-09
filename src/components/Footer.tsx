@@ -1,11 +1,8 @@
 import { FOOTER } from "@/constants"
-// import { FacebookIcon, InstagramIcon, LinkedinIcon, TwitterIcon } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { FaLinkedin } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
-import { FaGithub } from "react-icons/fa";
 import { AiFillTikTok } from "react-icons/ai";
 import { FaSquareFacebook } from "react-icons/fa6";
 
